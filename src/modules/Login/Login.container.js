@@ -73,7 +73,9 @@ class LoginContainer extends Component {
             />
             <Button onPress={props.handleSubmit} title="Login" />
 
-            <Button style={Styles.registerButton} onPress={this.handleRegister} title="Register" />
+            <View style={Styles.space} />
+
+            <Button onPress={this.handleRegister} title="Register1" />
           </View>
         )}
       </Formik>

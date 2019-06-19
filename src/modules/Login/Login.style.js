@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF'
   },
 
-  registerButton: {
-    marginTop: 20
+  space: {
+    height: 20
   }
 });
 
